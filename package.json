@@ -1,0 +1,29 @@
+{
+  "name": "aula-web-2-sites",
+  "version": "1.0.0",
+  "description": "Automação de testes com Playwright para BrowserStack e mabl",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:browserstack": "playwright test tests/browserstack",
+    "test:mabl": "playwright test tests/mabl",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "Filipe Barbosa e Pedro",
+  "license": "ISC",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbosadasilvafilipe22-cell/aula-web-2-sites.git"
+  },
+  "bugs": {
+    "url": "https://github.com/barbosadasilvafilipe22-cell/aula-web-2-sites/issues"
+  },
+  "homepage": "https://github.com/barbosadasilvafilipe22-cell/aula-web-2-sites#readme",
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "^26.6.4"
+  }
+}
